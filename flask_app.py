@@ -3,7 +3,6 @@ import os
 from flask import Flask, flash, request, redirect, url_for, session
 from flask_session import Session
 from werkzeug.utils import secure_filename
-from gevent.pywsgi import WSGIServer
 from example_inference import example_inference
 from flask import send_from_directory
 
